@@ -42,19 +42,20 @@ class Message {
     string Content { get; set; }
 }
 
-var serviceCollection = new ServiceCollection();
-
-serviceCollection
-    .AddProducer<Message>(
-        (provider, builder) => builder
-            .WithTopic("example-topic")
-    )
-    .AddConsumer<Message>(
-        (provider, builder) => builder
-            .WithTopic(settings.PulsarTopic)
-            .WithSubscriptionType(SubscriptionType.Exclusive)
-            .WithSubscriptionName("example-subscription")
-    )
+static class Startup {
+    public static IServiceCollection AddExample(this IServiceCollection services) => 
+        services
+            .AddProducer<Message>(
+                (provider, builder) => builder
+                    .WithTopic("example-topic")
+            )
+            .AddConsumer<Message>(
+                (provider, builder) => builder
+                    .WithTopic(settings.PulsarTopic)
+                    .WithSubscriptionType(SubscriptionType.Exclusive)
+                    .WithSubscriptionName("example-subscription")
+            )
+}
 ```
 
 ### Producing messages:

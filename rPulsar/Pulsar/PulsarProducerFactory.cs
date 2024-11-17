@@ -1,6 +1,6 @@
 using DotPulsar.Abstractions;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 using Microsoft.Extensions.DependencyInjection;
 

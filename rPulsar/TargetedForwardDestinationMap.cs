@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// A class that forwards messages of type TFrom to destinations capable or

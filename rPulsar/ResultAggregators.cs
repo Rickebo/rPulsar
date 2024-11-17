@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// Template result aggregators for booleans.

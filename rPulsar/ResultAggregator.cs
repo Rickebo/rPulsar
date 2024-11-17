@@ -2,7 +2,7 @@ using System.Collections.Concurrent;
 using System.Linq.Expressions;
 using rPulsar;
 
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// A result aggregator class that aggregates the results of multiple functions

@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// A class producing messages to be sent to a specific topic to the S2S broker

@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// An interface of the ConsumerFactory to detail how consumers are constructed

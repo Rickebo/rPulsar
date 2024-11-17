@@ -1,5 +1,5 @@
 using DotPulsar.Abstractions;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 public record PulsarClientWrapper(IPulsarClient Client);

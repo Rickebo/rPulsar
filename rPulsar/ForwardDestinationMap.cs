@@ -1,6 +1,6 @@
 using rPulsar;
 
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// A mapping of a message destination handling a specific type of message to a

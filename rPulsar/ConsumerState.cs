@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// An enum containing representations of the current state of a consumer

@@ -4,7 +4,7 @@ using DotPulsar.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 /// <summary>
 /// A class that consumes instances of a specific type from Apache Pulsar

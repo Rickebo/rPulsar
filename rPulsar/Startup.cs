@@ -1,12 +1,10 @@
 using DotPulsar;
 using DotPulsar.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
-using Common.Communication.Pulsar;
-using Common.Settings;
+using rPulsar.Pulsar;
 
-namespace Common.Communication;
+namespace rPulsar;
 
 public static class Startup
 {
@@ -85,7 +83,7 @@ public static class Startup
             .AddSingleton<IConsumerFactory, PulsarConsumerFactory>();
 
     /// <summary>
-    /// Adds a <see cref="Producer"/> to the specified service collection
+    /// Adds a <see cref="Producer{T}"/> to the specified service collection
     /// </summary>
     /// <param name="services">The service collection to add the producer to</param>
     /// <param name="configurator">A function that configures the

@@ -1,7 +1,7 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
-/// A builder class used to construct instances of the <see cref="Producer"/>
+/// A builder class used to construct instances of the <see cref="Producer{T}"/>
 /// class
 /// </summary>
 /// <typeparam name="T">The type of message the producer produces</typeparam>

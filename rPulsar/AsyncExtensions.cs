@@ -2,7 +2,7 @@
 
 namespace rPulsar;
 
-public class AsyncExtensions
+internal class AsyncExtensions
 {
     /// <summary>
     /// Run the given action on each task in parallel. The result is a

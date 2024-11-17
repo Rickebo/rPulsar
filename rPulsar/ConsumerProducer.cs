@@ -1,4 +1,4 @@
-﻿namespace Common.Communication;
+﻿namespace rPulsar;
 
 using System.Text.Json;
 

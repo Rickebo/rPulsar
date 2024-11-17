@@ -3,7 +3,7 @@ using DotPulsar.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 /// <summary>
 /// A builder class to construct instances of the PulsarConsumer class   

@@ -1,10 +1,10 @@
 using DotPulsar.Abstractions;
 
 using Microsoft.Extensions.DependencyInjection;
-using Common.Communication;
-using Common.Communication.Pulsar;
+using rPulsar;
+using rPulsar.Pulsar;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 /// <summary>
 /// A factory class that produces consumers of the PulsarConsumer class using

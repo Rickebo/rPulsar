@@ -5,7 +5,7 @@ using System.Text.Json;
 using DotPulsar;
 using DotPulsar.Abstractions;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 /// <summary>
 /// A schema class handling encoding and decoding class instances to JSON

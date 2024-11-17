@@ -2,7 +2,7 @@ using DotPulsar.Abstractions;
 using DotPulsar.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Communication.Pulsar;
+namespace rPulsar.Pulsar;
 
 using DotPulsar;
 

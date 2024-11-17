@@ -1,4 +1,4 @@
-namespace Common.Settings;
+namespace rPulsar;
 
 public interface IPulsarSettings
 {

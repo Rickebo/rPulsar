@@ -1,4 +1,4 @@
-namespace Common.Communication;
+namespace rPulsar;
 
 public enum SubscriptionType
 {

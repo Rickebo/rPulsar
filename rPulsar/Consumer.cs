@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Hosting;
 
-namespace Common.Communication;
+namespace rPulsar;
 
 /// <summary>
 /// A class that consumes instances of a specific type of class from a S2S

@@ -38,7 +38,7 @@ public class PulsarProducer<T> : Producer<T>, IAsyncDisposable
 
         while (!cancellationToken.IsCancellationRequested)
         {
-            state = await _producer.OnStateChangeFrom(state);
+            state = await _producer.OnStateChangeFrom(state, TimeSpan.Zero, cancellationToken: cancellationToken);
 
             if (_logger == null)
                 continue;
